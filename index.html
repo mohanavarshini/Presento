@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presento-clone</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- swipper link -->
+   <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+
+   <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl/css/owl.theme.default.min.css">
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- HEADING SECTION -->
+      <!-- <section id="header" >
+        <nav class="navbar fixed-top  navbar-expand-lg navbar-light  p-4 " >
+           <h3>Presento <span class="nav-dot">.</span></h3>
+
+          <button class="navbar-toggler bg-dark collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto  p-1 ">
+                  <li class="nav-item active ">
+                    <a class="nav-link home" href="#">Home </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">About </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Team</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Contact</a>
+             </li> 
+           </ul>
+          <button type="button" class="btn btn-primary pr-2 button">Get Started</button>
+        </div>
+        </nav>
+        </section> -->
+        <section id="header" class="header">          
+          <nav class="fixed-top">
+            <div class="logo">
+              <h3>Presento <span class="nav-dot">.</span></h3>
+            </div>
+            <ul >
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Dropdown</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+            <button type="button" class="btn btn-danger pr-2 button">Get Started</button>
+        </nav>
+        </section>
+
+
+      <!-- HERO SECTION -->
+      <main>
+        <section id="hero" class="hero">
+          <div class="container mt-5 mb-2" >
+            <div class="row mb-6">
+              <div class="col-lg-6 mt-4 hero-cont " data-aos="fade-up">
+                <h2 class="hero-tit mt-4">Bettter digital experience with Presento</h2>
+                <p class="hero-para">We are team of talented designers making websites with Bootstrap</p>
+                <div class="d-flex mt-4 ">
+                  <button type="button" class="btn btn-danger button">Get Started</button>
+                  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="fa-regular fa-circle-play icon"></i> <span>Watch Video</span></a>
+                </div><br><br>
+    
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+
+      <!-- CLIENT SECTION -->
+      <section id="client">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="owl-carousel owl-theme slide-1">
+              <div class="item">
+                <img src="client-1.png" alt="user image" class="img">           
+              </div>
+              <div class="item">
+                <img src="client-2.png" alt="user image" class="img">
+              </div>
+              <div class="item">
+                <img src="client-3.png" alt="user image" class="img">
+              </div>
+              <div class="item">
+                <img src="client-4.png" alt="user image" class="img">
+              </div>
+              <div class="item">
+                <img src="client-5.png" alt="user image" class="img">
+              </div>
+              <div class="item">
+                <img src="client-6.png" alt="user image" class="img">
+              </div>
+              <div class="item">
+                <img src="client-7.png" alt="user image" class="img">
+              </div>
+              <div class="item">
+                <img src="client-8.png" alt="user image" class="img">
+              </div>
+          </div>
+          </div>   
+        </div>
+      </section>
+
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-up">
+                   <h1>Voluptatem dignissimos provident quasi</h1>
+                   <br><br>
+                   <p class="abt-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                   <br><br>
+                   <button type="button" class="btn btn-danger abt-button">ABOUT US ></button>
+                </div>
+                <div class="col-lg-7 mt-5 abt-right" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <i class="fa-solid fa-briefcase icon"></i><br><br>
+                            <h5>Corporis voluptates sit</h5><br>
+                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p><br><br>
+                        </div>
+                        <div class="col-lg-6">
+                            <i class="fa-regular fa-gem icon"></i><br><br>
+                            <h5>Ullamco laboris nisi</h5><br>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p><br><br>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-6">
+                            <i class="fa-solid fa-tower-broadcast icon"></i><br><br>
+                            <h5>Labore consequatur</h5><br>
+                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p><br><br>
+                            </div>
+                        <div class="col-lg-6">
+                            <i class="fa-solid fa-radio icon"></i><br><br>
+                            <h5>Beatae veritatis</h5><br>
+                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+     </section>
+
+     <section id="abt1" class="abt1">
+      <div class="container mt-5 mb-5" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <a href=""><i class="fa-regular fa-face-smile icons"></i></a> 
+            <div class="box">
+              <div class="abt-data">
+                <h1>232</h1>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <a href=""><i class="fa-solid fa-file-contract icons"></i></a> 
+            <div class="box">
+              <div class="abt-data">
+                <h1>521</h1>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <a href=""><i class="fa-solid fa-headphones-simple icons"></i></a> 
+            <div class="box">
+              <div class="abt-data">
+                <h1>1463</h1>
+                <p>Hours of Support</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <a href=""><i class="fa-solid fa-user-group icons"></i></a> 
+            <div class="box">
+              <div class="abt-data">
+                <h1>15</h1>
+                <p>Hard Workers </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="abt2" class="abt2">
+        <div class="container">      
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center" data-aos="fade-up">
+              <div class="box">
+                <div class="info-box">
+                  <i class="fa-solid fa-binoculars abt2-icon col-lg-3"></i>
+                  <h3 class="col-lg-9">Modi sit est dela pireda nest</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center" data-aos="fade-up">
+              <div class="box">
+                <div class="info-box">
+                  <i class="fa-solid fa-cube abt2-icon col-lg-3"></i>
+                  <h3 class="col-lg-9">Unde praesenti mara setra le</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center" data-aos="fade-up">
+              <div class="box">
+                <div class="info-box">
+                  <i class="fa-regular fa-sun abt2-icon col-lg-3"></i>
+                  <h3 class="col-lg-9">Pariatur explica nitro dela</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center" data-aos="fade-up">
+              <div class="box">
+                <div class="info-box">
+                  <i class="fa-solid fa-circle-nodes abt2-icon col-lg-3"></i>
+                  <h3 class="col-lg-9">Nostrum qui dile node</h3>
+                </div>
+              </div>
+            </div>       
+          </div>
+          </div>
+        </section>
+
+
+            <section id="abt3" class="abtthree">
+              <div class="container mb-5">
+                <div class="row mt-5 mt-5">
+                  <div class="col-lg-6" data-aos="fade-up">
+                   <h4>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h4><br>
+                   <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><br>
+                   <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p><br>
+            
+                   <li><i class="fa-solid fa-check-double icon"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                   <li> <i class="fa-solid fa-check-double icon "></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                   <li> <i class="fa-solid fa-check-double icon"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li><br>
+                   <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up">
+                  <div class="img">
+                    <img src="working-4.jpg" class="img-fluid" alt="...">
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            <!-- SERVICES SECTION -->
+             <section id="services" class="services mt-4 mb-4 ">
+              <div class="container ser-box ">
+                <h3 data-aos="fade-up">SERVICES</h3>
+                <p class="mt-4 ser-para" data-aos="fade-up">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+          
+                <div class="row">
+                  <div class="col-lg-6 " data-aos="fade-up">
+                    <div class="services-box d-flex mt-3">
+                      <i class="fa-solid fa-briefcase"></i>
+                      <div class="box-contents">
+                        <h4> Lorem Ipsum</h4>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up">
+                    <div class="services-box d-flex mt-3" >
+                      <i class="fa-regular fa-rectangle-list"></i>
+                      <div class="box-contents">
+                        <h4> Dolor Sitema</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+          
+                <div class="row">
+                  <div class="col-lg-6 ">
+                    <div class="services-box d-flex mt-3" data-aos="fade-up">
+          
+                      <i class="fa-regular fa-sun"></i>
+                      <div class="box-contents">
+                        <h4> Sed ut perspiciatis</h4>
+                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="services-box d-flex mt-3" data-aos="fade-up">
+                      <i class="fa-regular fa-calendar"></i>
+                      <div class="box-contents">
+                        <h4> Magni Dolores</h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="row">
+                  <div class="col-lg-6 ">
+                    <div class="services-box d-flex mt-3" data-aos="fade-up">
+                      <i class="fa-solid fa-signal"></i>
+                      <div class="box-contents">
+                        <h4> Nemo Enim</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni molestias quidem nisi vel fugit laborum.</p>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="services-box d-flex mt-3" data-aos="fade-up" >
+                      <i class="fa-solid fa-binoculars"></i>
+                      <div class="box-contents">
+                        <h4>Eiusmod Tempor</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>          
+                </div>
+             </section>
+
+
+             <!-- PORTFOLIO SECTION -->
+             <section id="portfolio" class="portfolio mt-4 mb-4 ">
+              <div class="container port-box ">
+                <h3 data-aos="fade-up"> PORTFOLIO</h3>
+                <p class="mt-4 port-para" data-aos="fade-up">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+              </div>
+              <ul class="portfolio-filters isotope-filters aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-product">Product</li>
+                <li data-filter=".filter-branding">Branding</li>
+                <li data-filter=".filter-books">Books</li>
+              </ul>
+              <div class="container">
+                <div class="row gy-4 isotope-container aos-init aos-animate port-main" data-aos="fade-up" data-aos-delay="200" >
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app port-1" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">App 1</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product port-2" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Product 1</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding port-3" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Branding 1</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books port-4" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">books 1</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app port-5" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">App 1</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product port-6" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Product 2</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding port-7" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Branding 2</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books port-8" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Books 2</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app port-9" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">App 3</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product port-10" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Product 3</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding port-11" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Branding 3</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books port-12" >
+                    <div class="portfolio-content ">
+                      <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <button type="button" class="btn btn-danger port-button">Books 3</button>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+             </section>
+
+
+             <!-- TESTIMONIAL SECTION -->
+      <section id="testimonial" class="testimonial">
+        <div class="container mb-4">
+          <h3 class="test-head" data-aos="fade-up">TESTIMONIALS</h3>
+          <p class="mt-4 test-para" data-aos="fade-up">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+          <div class="row">
+            <div class="owl-carousel owl-theme testi-1">
+              <div class="item" data-aos="fade-left">
+                  <img src="testimonials-1.jpg" class="testimonial-img" alt=""><br>
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div><br>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <span><i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i></span>
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>             
+              </div>
+              <div class="item" data-aos="fade-left">
+                <img src="testimonials-2.jpg" class="testimonial-img" alt=""><br>
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div><br>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p> 
+              </div>
+              <div class="item" data-aos="fade-left">
+                <img src="testimonials-3.jpg" class="testimonial-img" alt=""><br>
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div><br>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p> 
+              </div>
+              <div class="item" data-aos="fade-left">
+                <img src="testimonials-4.jpg" class="testimonial-img" alt=""><br>
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div><br>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p> 
+              </div>
+              <div class="item" data-aos="fade-left">
+                <img src="testimonials-5.jpg" class="testimonial-img" alt=""><br>
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div><br>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p> 
+              </div>
+              
+          </div>
+          </div>   
+        </div>
+      </section>
+
+     <!-- FAQ SECTION -->
+       <section id="about-ours">
+        <div class="container mt-5 pt-5 pb-5">
+      
+          <div class="question-title mt-5 mb-5">
+            <h4 class="test-head " data-aos="fade-up">FREQUENTLY ASKED QUESTIONS</h4>
+            <p class="test-para" data-aos="fade-up" style="color: black; padding-top: 20px; text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          </div>
+          <div class="row ">
+            <div class="col-sm-12 col-lg-12 mt-5 pl-1" data-aos="fade-up">
+             
+              <div class="accordion pl-3" id="accordionExample">
+                <div class="card p-2">
+                  <div class="card-header  " id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link active" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         Non consectetur a erat nam at lectus urna duis? <i class="fa-solid fa-angle-up "></i>
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span  class="drop-down-content1">This is the first item's accordion body.</span> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. the
+                      <span  class="drop-down-content2"> accordion-body,</span> though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div><br>
+                <div class="card p-2">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Feugiat scelerisque varius morbi enim nunc? <i class="fa-solid fa-angle-up "></i>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span class="drop-down-content1"> This is the second item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. the.<span  class="drop-down-content2">accordion-body,</span> though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div><br>
+                <div class="card p-2">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                         Dolor sit amet consectetur adipiscing elit? <i class="fa-solid fa-angle-up "></i> 
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span  class="drop-down-content1">This is the third item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. the.<span  class="drop-down-content2">accordion-body, </span>though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div><br>
+      
+                <div class="card p-2">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                         Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa-solid fa-angle-up "></i> 
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span  class="drop-down-content1">This is the fourth item's accordion body.</span> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.<span  class="drop-down-content2">accordion-body, </span>though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div><br>
+      
+                <div class="card p-2">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                         Tempus quam pellentesque nec nam aliquam sem et tortor? <i class="fa-solid fa-angle-up "></i> 
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span  class="drop-down-content1">This is the Fifth item's accordion body.</span> Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in the.<span  class="drop-down-content2">accordion-body, </span>though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div><br>
+      
+                <div class="card p-2">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          Perspiciatis quod quo quos nulla quo illum ullam? <i class="fa-solid fa-angle-up "></i> 
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span  class="drop-down-content1">This is the sixth item's accordion body.</span> Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et. the.<span  class="drop-down-content2">accordion-body, </span>though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+      
+      
+          </div>
+        </div>
+      
+       </section>
+
+       <!-- CONTACT SECTION -->
+       <section id="contact" class="contact">
+        <div class="container mt-5 mb-5">
+          <h4 class="test-head " data-aos="fade-up">CONTACT</h4>
+            <p class="test-para" data-aos="fade-up" style="color: black; padding-top: 20px; text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <br><br>
+
+              <div class="row">
+                <div class="col-lg-6 ">
+                  <div class="row gy-4">
+      
+                    <div class="col-lg-12">
+                      <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6">
+                      <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>+1 5589 55488 55</p>
+                      </div>
+                    </div>
+      
+                    <div class="col-md-6">
+                      <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>info@example.com</p>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+      
+                <div class="col-lg-6">
+                  <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                    <div class="row gy-4">
+      
+                      <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                      </div>
+      
+                      <div class="col-md-6 ">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                      </div>
+      
+                      <div class="col-md-12">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                      </div>
+      
+                      <div class="col-md-12">
+                        <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                      </div>
+      
+                      <div class="col-md-12 text-center">
+      
+                        <button type="submit" class="btn btn-danger cont-button">Send Message</button>
+                      </div>
+      
+                    </div>
+                  </form>
+                </div>
+      
+              </div>               
+        </div>     
+       </section>
+
+
+      <!-- FOOTER SECTION -->
+      <section id="footer" class="footer ">
+        <div class="container ">
+          <div class="row">
+            <div class="col-lg-3 col-sm-12 mt-5">
+              <h3>Presento</h3>
+              <p class="mt-3">A108 Adam Street <br> New York, NY 535022 <br> United States <br> <br> 
+                <strong>Phone: </strong>+1 5589 55488 55 <br> <strong>Email: </strong>info@example.com</p>
+                <div class="footer-social d-flex mt-3 mb-4">
+                  <a href=""><i class="fa-brands fa-twitter rounded-circle"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook rounded-circle"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram rounded-circle"></i></a>
+                  <a href=""><i class="fa-brands fa-skype rounded-circle"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin-in rounded-circle"></i></a>       
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-12 mt-5">
+              <h5>Useful Links</h5>
+              <p>Home</p>
+              <p>About us</p>
+              <p>Services</p>
+              <p>Terms of service</p>
+              <p>Privacy policy</p>
+            </div>
+            <div class="col-lg-3 col-sm-12 mt-5">
+              <h5>Our Services</h5>
+              <p>Web Design</p>
+              <p>Web Development</p>
+              <p>Product Management</p>
+              <p>Marketing  </p>
+              <p>Graphic Design </p>
+            </div>
+            <div class="col-lg-3 col-sm-12 mt-5">
+              <h5>Our Newsletter</h5>
+              <span class="mt-5">Subscribe to our newsletter and receive the latest news about our products and services!</span><br><br>
+              
+              
+            </div>
+          </div>
+        </div>
+      
+       </section>
+
+
+      <!-- COPYRIGHTS SECTION -->
+      <section id="copyright" class="copyright">
+        <div class="container  pt-5 pb-4">
+          <div class="row">
+            <div class="col-sm-12 col-lg-12 ">            
+                <span class="copyright-from" >© Copyright <strong>Presento.</strong>  All Rights ReservedDesigned by BootstrapMade</span>
+                <p>Designed by <span class="designer">Mohanavarshini</span></p>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+            
+
+                                         
+
+
+
+
+
+
+
+     
+
+
+      <!-- AOS ANIMATION -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script>
+        const menu = document.querySelector('.menu')
+        const menuList = document.querySelector('nav ul')
+        menu.addEventListener('click',()=>{
+            menuList.classList.toggle('showmenu')
+        })
+    </script>
+      <!-- link for swipper js -->
+      <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+       <script src="./owl/js/owl.carousel.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       <script>
+
+
+        $('.slide-1').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            center:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:6
+                }
+            }
+        })
+        $('.slide-2').owlCarousel({
+            loop:true,
+            margin:10,
+            
+            nav:false,
+            center:true,
+            autoWidth:true,
+            autoplay:true,
+            autoHeight:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+
+
+        $('.testi-1').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            center:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+        
+        
+        $('.testi-2').owlCarousel({
+            loop:true,
+            margin:10,
+            
+            nav:false,
+            center:true,
+            autoWidth:true,
+            autoplay:true,
+            autoHeight:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+</script>
+       
+</body>
+</html>
